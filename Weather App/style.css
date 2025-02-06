@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: rgb(0, 4, 119);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main{
+  margin: 0px 410px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 400px;
+}
+.city{
+  margin-left: 20px;
+  
+}
+.input{
+  margin-left: 600px;
+  border: none;
+  border-radius: 7px;
+  width: 200px;
+  height: 30px;
+}
+.input:hover{
+  background-color: rgb(232, 232, 232);
+}
+.search-btn{
+margin-left: 5px;
+height: 30px;
+width: 50px;
+border-radius: 7px;
+border: none;
+cursor: pointer;
+}
+.search-btn:hover{
+  background-color: rgb(216, 216, 216);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  color: rgb(0, 0, 0);
+  margin-left: 410px;
+  column-gap: 40px;
+  padding: 15px 0px;
+  font-size: 20px;
+  
+}
+
+nav button{
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav button:hover{
+  transition: 0.3s ease-out;
+  box-shadow: 0px 3px 0px 0px rgb(8, 0, 255);
+}
+
+.card-city{
+  font-size: 40px;
+  font-family: "Funnel Display", serif;
+  
+}
+.temperature{
+  font-size: 40px;
+  font-family: "Funnel Display", serif;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  row-gap: 13px;
+}
+.desc{
+  font-size: 40px;
+  font-family: "Funnel Display", serif;
+}
+.feels-like{
+  font-size: 40px;
+  font-family: "Funnel Display", serif;
+}
+.card-item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(8, 0, 255);
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+}
+.recent{
+  font-size: 20px;
+  font-family: "Funnel Display", serif;
+  position: absolute;
+  left: 15px;
+  top: 120px;
+  border-radius: 15px;
+  background-color: rgb(8, 0, 255);
+  color: white;
+  padding: 7px;
+}
